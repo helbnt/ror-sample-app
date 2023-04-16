@@ -1,4 +1,4 @@
-@import "bootstrap";
+// @import "bootstrap";
 
 .debug_dump {
   clear: both;
@@ -7,6 +7,39 @@
   margin-top: 45px;
   padding: 1rem;
   background-color: lightblue;
+}
+
+.navbar-light {
+  .navbar-brand {
+    font-family: "Rum Raisin", sans-serif;
+    //font-family: "Sulphur Point", sans-serif;
+    font-size: 2rem;
+    color: #ba1200;
+    letter-spacing: 0;
+  }
+}
+
+.nav-item {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .nav-item {
+    margin: 0 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .nav-item {
+    margin: 0 3rem;
+  }
 }
 
 #error_explanation {

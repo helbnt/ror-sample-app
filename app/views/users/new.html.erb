@@ -18,6 +18,9 @@
       <%= f.label :password_confirmation, "Confirmation", class: "form-label mt-3 mb-0" %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
+      <%= f.label :url, class: 'form-label mt-3 mb-0' %>
+      <%= f.url_field :url, class: 'form-control' %>
+
       <%= f.submit "Create my account", class: "btn btn-primary mt-3" %>
     <% end %>
   </div>
